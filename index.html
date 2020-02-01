@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boost-Cenifade.ru</title>
+    <link rel="shortcut icon" href="VB.png" type="image/png">
+</head>
+<body id='body'>
+
+    <header class="top">
+       <a href="index.html"> <img src="VertigoBoost.png" alt="" class="logo"></a>
+        <p class="zagolovok"><a href="index2.html">Видео Буста</a>
+        <p class="zagolovok"><a href="https://vk.com/id548914659">Купить boost</a>
+        <p class="zagolovok"><a href="https://vk.com/club191006044">Группа в вк</a>
+        <p class="zagolovok"><a href="https://vk.com/topic-191006044_40141193">отзывы</a>
+        <p class="zagolovok"><a href="https://vk.com/topic-191006044_40141201">гарантии</a>
+         
+          </header>
+    <h2>
+    Vertigo Boost CS:GO by Cenifade
+    </h2>
+
+    <h3>
+        ЧТО ЭТО ТАКОЕ?
+    </h3>
+
+    <h4>
+        Буст от любого звания или калибровки до глобала.
+    </h4>
+
+    <h4>
+        ПОЛУЧУ ЛИ Я ЗА ЭТО VAC?
+    </h4>
+    <h5>
+        Вы 100% не получите VAC бан или Игровую блокировку за наш буст,так как наш демки не просматривается патрулем.
+    </h5>
+    <ol>
+        <li>
+            <img id="img" width="300px" src="supreme.png">
+        </li>
+    </ol>
+</body>
+<style>
+    body {
+        color:darkgray;
+        background-image: url('global.jpg');
+        background-position-x: 40%; }
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: firebrick;
+}
+.zagolovok {
+    front-size: 30px;
+    margin-left: 40px;
+    color: white
+}
+.logo {
+    position: relative;
+    right: 250px;
+    transform: scale(0.7);
+}
+a {
+    color: black
+}
+</style>
+<script>
+var img = document.getElementById('img')
+img.addEventListener('click', open)
+function open() {
+    console.log(window.innerWidth)
+    console.log(window.innerHeight)
+    img.style.position = 'absolute'
+    img.style.width = '1600px'
+    img.style.height = '900px'
+    img.style.top = '200px'
+    img.style.left = '0px'
+}
+body.addEventListener('click', close)
+function close(e) {
+    if (e.target.id != 'img') {
+        img.style.position = 'static'
+        img.style.width = '300px'
+         img.style.height = '300px'
+    }
+}
+</script>
+</html>
